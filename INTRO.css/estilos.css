@@ -1,0 +1,105 @@
+/*span{
+    color: rgb(255, 0, 0);
+    background-color: black;
+}*/
+
+/* tpos de selectores*/
+/*POR ETIQUETAS*/
+
+
+/*#p1{
+    color: aqua;
+    background-color: rgb(0, 0, 0);
+}
+p{
+    color: red !important ;
+}*(
+
+
+/* POR EDIENTIFICADOR*/
+/* ID ->(#) */
+
+/*#p2{
+    color: rgb(255, 0, 0);
+}*/
+
+/* CLASS -> (.) */
+/*.p3{
+    color: blue;
+}
+.colortexto{
+    color: cadetblue;
+    font-size: 30px;
+}*/
+
+
+
+
+/* POR JERARQUIA*/
+/* hijo directo (>) */
+
+/*div > p{
+    color: red;
+}*/
+
+
+/* hijo indirecto () */
+
+/*div p{
+    color: blue;
+}*/
+
+
+/* POR  ETIQUETAS ADYACENTES*/
+/* TODOS LOS HERMNAOS (+) */
+
+/*div + p{
+    color: blueviolet;         
+}*/
+
+
+
+/* TODOS LOS HERMNAOS (~) */
+
+/*div ~ p{
+    color: green;
+}*/
+
+
+/* POR ESPECIFIDAD */
+
+/*p.p1{
+    color: rgb(255, 0, 234);
+}
+p.p1{
+    color: blueviolet;
+}
+p.p1{
+    color: cyan;
+}*/
+
+/* SELECTOR TODO (*) */
+/* forma 1 -> selecionar todas las etiquetas */
+/* *{
+    color: hotpink;
+} */
+/* forma 2 -> selecionar todas la etiqutass de otra  */
+
+/* div * {
+    color: hotpink;
+    */
+
+
+/* forma 3 -> seleciona todas las etiquetas de un tipo */
+* h2{
+    color: chartreuse;
+}
+
+
+
+
+
+
+
+
+
