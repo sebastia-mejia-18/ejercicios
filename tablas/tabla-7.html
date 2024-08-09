@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machote de Inventario de Personal</title>
+    <h1>
+        <nav>
+            <a href="./tabla-1.html">inicio</a>
+        </nav>
+    </h1>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .header-row {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .section-header {
+            background-color: #d3e4cd;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form method="post">
+    <table align="center" >
+        <tr class="header-row">
+            <td colspan="6">Machote de Inventario de Personal</td>
+        </tr>
+        <tr>
+            <th colspan="6">Inventario de Personal</th>
+        </tr>
+        <tr>
+            <td>NOMBRE</td>
+            <td colspan="2"> <input type="text" style="border: none;"> </td>
+            <td>ESTADO CIVIL</td>
+            <td colspan="2"><input type="text" style="border: none;">  </td>
+        </tr>
+        <tr>
+            <td>DIRECCION</td>
+            <td colspan="2"> <input type="text" style="border: none;">  </td>
+            <td>TELEFONO</td>
+            <td colspan="2"> <input type="text" style="border: none;">  </td>
+        </tr>
+        <tr>
+            <td>COMPAÑÍA DE SEGUROS</td>
+            <td colspan="5"> <input type="text" style="border: none;">  </td>
+        </tr>
+        <tr class="section-header">
+            <td colspan="6">ESTADO GENERAL DE SALUD</td>
+        </tr>
+        <tr>
+            <td>HEPATITIS</td>
+            <td> <input type="radio" name="health1" ></td>
+            <td>GASTRITIS</td>
+            <td><input type="radio" name="health1" ></td>
+            <td>ASMA</td>
+            <td><input type="radio" name="health1" ></td>
+        </tr>
+        <tr>
+            <td>ANEMIAS</td>
+            <td> <input type="radio" name="health1" > </td>
+            <td>DIABETIS</td>
+            <td> <input type="radio" name="health1" > </td>
+            <td>ALERGIAS</td>
+            <td> <input type="radio" name="health1" > </td>
+        </tr>
+        <tr>
+            <td>HIPO. ARTERIAL</td>
+            <td><input type="radio" name="health1" > </td>
+            <td>HIPER. ARTERIAL</td>
+            <td> <input type="radio" name="health1" > </td>
+            <td>OTRO:</td>
+            <td> <input type="radio" name="health1" > </td>
+        </tr>
+        <tr>
+            <td>CELIACO</td>
+            <td><input type="radio" name="health1" > </td>
+            <td colspan="2"  >EPILEPSIA  </td>
+            <td> <input type="radio" name="health1" ></td>
+            <td></td>
+        </tr>
+        <tr class="section-header">
+            <td colspan="6">EXPERIENCIA LABORAL</td>
+        </tr>
+        <tr>
+            <td>EMPRESA</td>
+            <td colspan="5"  > <input type="text" style="border: none; width: 100%; "> </td>
+        </tr>
+        <tr>
+            <td>NOMBRE DEL PUESTO</td>
+            <td colspan="5"> <input type="text" style="border: none; width: 100%; "> </td>
+        </tr>
+        <tr>
+            <td>FUNCIONES DEL PUESTO</td>
+            <td colspan="5"> <input type="text" style="border: none; width: 100%; "> </td>
+        </tr>
+        <tr class="section-header">
+            <td colspan="6">FORMACIÓN ACADEMICA</td>
+        </tr>
+        <tr>
+            <td>ESCOLARIDAD</td>
+            <td colspan="5"> <input type="text" style="border: none; width: 100%; "> </td>
+        </tr>
+        <tr>
+            <td>ESCUELA</td>
+            <td colspan="5"> <input type="text" style="border: none; width: 100%; "> </td>
+        </tr>
+        <tr>
+            <td>PROFESIÓN</td>
+            <td colspan="5"> <input type="text" style="border: none; width: 100%; "> </td>
+        </tr>
+        <tr class="section-header">
+            <td colspan="6">ESTUDIOS ADICIONALES</td>
+        </tr>
+        <tr>
+            <td>ENTIDAD O ESCUELA</td>
+            <td colspan="5"> <input type="text" style="border: none; width: 100%; "> </td>
+        </tr>
+        <tr>
+            <td>TÍTULO</td>
+            <td colspan="5"> <input type="text" style="border: none; width: 100%; "> </td>
+        </tr>
+        <tr class="section-header">
+            <td colspan="6">INFORMACIÓN ADICIONAL</td>
+        </tr>
+        <tr>
+            <td>PUESTO NO EMPLEADO</td>
+            <td colspan="5"><input type="text" style="border: none; width: 100%; "> </td>
+        </tr>
+        <tr>
+            <td>No. AÑOS EN EL PUESTO</td>
+            <td colspan="5"> <input type="text" style="border: none; width: 100%; "> </td>
+        </tr>
+        <tr>
+            <td>PUESTOS ANTERIORES</td>
+            <td colspan="5"> <input type="text" style="border: none; width: 100%; "> </td>
+        </tr>
+        <tr>
+            <td>COMENTARIOS</td>
+            <td colspan="5"> <input type="text" style="border: none; width: 100%; "> </td>
+        </tr>
+    </table>
+    <button type="submit" >enviar</button>
+</form>
+</body>
+</html
