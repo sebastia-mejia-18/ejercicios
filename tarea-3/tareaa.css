@@ -1,0 +1,61 @@
+/* Selector Universal */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Selector de Etiqueta */
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Selector de Clase */
+.resaltado {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/* Selector de ID */
+#principal {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+/* Selector de Atributo */
+a[href^="https"] {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Selector de Coma */
+h2, h3 {
+    margin-top: 20px;
+    color: purple;
+}
+
+/* Selector de Descendiente (Espacio) */
+section article p {
+    color: #555;
+}
+
+/* Selector de Hijo Directo (>) */
+nav > ul > li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+/* Selector de Adyacente (+) */
+h3 + p {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+/* Selector de Hermano General (~) */
+.intro ~ p {
+    color: darkred;
+    font-style: italic;
+}
