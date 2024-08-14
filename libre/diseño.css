@@ -1,0 +1,23 @@
+img {
+    border: 9px solid black;
+    
+        position:static;
+    display:inline-block;
+    float: none;
+    z-index: 1;
+     
+}
+
+
+iframe{
+    border-radius: 60px;
+    display: inline-block ;
+    float: none;
+    z-index: 3;
+}
+
+
+
+
+
+
