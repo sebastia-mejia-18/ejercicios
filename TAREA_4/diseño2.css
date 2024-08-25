@@ -1,0 +1,58 @@
+body{
+font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(400deg, #000000, #446c82, #036893);/*hace un degradado
+     en toda la pagina*/
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+   /* overflow: hidden;  hace que la pagina se quede estatica y 
+las imagenes fuera de rango se recorten  */
+    overflow: auto;/*coloca una barra de desplasamiento*/
+
+}
+
+
+h1{color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.image-container {
+    text-align: center; /* Centra la imagen horizontalmente */
+    margin-top: 100px; /* Espacio superior */
+   
+}
+
+.image-container img  {
+    width: 80%; /* Ajusta el tamaño de la imagen */
+    max-width: 350px; /* Tamaño máximo de la imagen */
+    border-radius: 30px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.09); /* Sombra opcional */
+   
+}
+
+.image-container img:hover {
+    transform: scale(1.20); /* coloca las imagenes tactiles*/
+
+}
+
+button {
+    background-color: #26c6da;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;/*cambia el cursor a una mano*/
+    transition: background-color 0.3s ease; /*le hace una transicion al boton*/
+}
+
+button:hover {
+    background-color: #00acc1;/*le coloca un fondo al boton*/
+}
+a {
+    text-decoration: none;
+}
+
+

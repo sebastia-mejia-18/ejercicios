@@ -1,0 +1,74 @@
+h1{
+    text-align: center;
+    
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    
+    
+    }
+    
+    
+    header {
+       
+        text-align: center;
+        padding: 0px;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 1px;
+        
+    }
+    
+    .nav, .sidebar {
+        background-color: #cccccc;
+        padding: 20px;
+        box-sizing: border-box;
+        flex: 1; /* Ocupa 1 parte del espacio */
+    }
+    
+    .content {
+        background-color: #999999;
+        padding: 190px;
+        text-align: center;
+        box-sizing: border-box;
+        flex:2; /* Ocupa el doble del espacio */
+    }
+    
+
+    
+    .sidebar {
+        flex: 1;
+    }
+    
+    footer {
+        background-color: #f2f2f2;
+        text-align: center;
+        padding: 5px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+
+    button {
+        background-color: #26c6da;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;/*cambia el cursor a una mano*/
+        transition: background-color 0.3s ease; /*le hace una transicion al boton*/
+    }
+    
+
+  
