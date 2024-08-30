@@ -1,0 +1,124 @@
+body{
+    background: linear-gradient(135deg, #000000	, #d2d2c9, #000000);
+}
+
+
+/*MENU*/
+.cabecera{
+width: 100%;
+height: 100px;
+background-color: rgb(0, 0, 0);
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.logo img{
+    width: 150px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    margin-right: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+/*sesion banner*/
+.Banner_Principal{
+    width: 100%;
+    height: 500px;
+    background-color: darkgray;
+    background-image: url(/imagenes/sudaderamujer1.png);
+    background-size: 100%;
+    background-position: 0 -90px;
+    display: flex;
+    justify-content: center;
+
+}
+.Banner_Principal div{
+width: 500px;
+height: 200px;
+background-color:transparent;
+text-align: center;
+}
+.Banner_Principal div h1{
+margin: 0;
+margin-top: -100px;
+font-size: 35px;
+text-align: center;
+color:goldenrod;
+}
+
+.Banner_Principal div p,
+.Banner_Principal div a{
+font-size: 20px;
+text-align: center;
+color: rgb(255, 255, 255);
+}
+
+.Banner_Principal div a{
+text-decoration: none;
+color: goldenrod;
+background-color: black;
+padding: 10px 15px;
+border-radius: 5px;
+cursor: pointer;
+}
+.flotante{
+    display: flex;
+    justify-content: center;
+}
+.flotante div,
+.slider div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    position: absolute;
+    margin-top: -15px;
+}
+.flotante div img,
+.productos div figure img{
+    width: 240px;
+    background-color:rgb(0, 0, 0);
+}
+
+/*sesion productos*/
+.productos,
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.productos h2,
+.block > h2,
+.slider h2{
+    font-size: 50px;
+    margin-top: 100px;
+    text-align: center;
+
+}
+.productos div,
+.block div{
+width: 90%;
+display: flex;
+flex-wrap: wrap;
+}
+.productos div figure{
+    margin: 8px;
+}
+
+.productos div figcaption{
+    text-align: center;
+    color: goldenrod;
+background-color: black;
+padding: 10px 15px;
+border-radius: 5px;
+
+}
