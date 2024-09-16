@@ -1,0 +1,32 @@
+condicionales
+
+1-Simple
+-> la expresion a evaluar es verdadera (resultado booleano).
+
+2-compuesto
+-> se ejecuta si la condicion a evaluarno no es verdadera  (resultado booleano).
+
+
+3-anidado
+-> es un conjunto de condicionales simples y/o compuestos
+compuesto -> es un menu de opcionesque tomara un resultado
+simple -> condiciones estrictas que se tiene que cumplir
+
+4-multiple
+-> es un menu de opciones conocido como un (switch)
+
+5- operador ternario
+-> es una smplificacion de  una condional compuesta
+
+!EXPRESIONES BOOLEANAS!
+
+>  -> Mayor (Excluyente)
+<  -> Menor (Excluyente)
+<= -> menor o igual (Incluyente)
+>= -> mayor o igual (Incluyente)
+
+!=  -> diferente o negacion
+==  -> comparacion simple
+=== -> comparacion estricta
+
+Tablas de verdad (conjucion y la disyuncion)
