@@ -1,0 +1,64 @@
+ciclos - bucles - loops - estructuras de repeticion
+
+Generales
+ para-> for
+ ciclo finito; se utiliza solo cuando se sabe
+ la cantidad de veces a ejecutar x bloque de codigo.
+ variable de control, un condicion y un control(se define
+ dentro del ciclo)
+ Los acumuladores siempre se define por fuero de un ciclo,
+ y se utiliza dentro del ciclo
+
+ mientras-> while
+ ciclo infinito por defecto
+ exprecion booleana
+  centinela, bandera o inerruptor
+  La variable de control e iteracion simpre se define por fuera del ciclo
+  La variable de control e iteracion simpre incremente dentro del ciclo
+  Nota: simpre define el control antes de que la condicionse cumpla
+  Nota2: un ciclo minetras puede hacer exactamente lo mismo que un ciclo for
+
+ repita-> do-while
+ ciclo infinito por defecto
+ exprecion booleana
+  centinela, bandera o inerruptor
+  La variable de control e iteracion simpre se define por fuera del ciclo
+  La variable de control e iteracion simpre incremente dentro del ciclo
+  Nota: simpre define el control antes de que la condicionse cumpla
+  Nota2: un ciclo minetras puede hacer exactamente lo mismo que un ciclo for
+
+
+
+propios de JS
+ for-in
+ for-of
+
+metodos (Arreglos)
+ map()
+ filter()
+ find()
+ some()
+ forEach()
+ ...
+
+ temas del quiz
+    generalidades JS (variables, captura de datos, mostrar datos)
+    alcance de las variables (variable locales y globales)
+    condicionales : simple, compuesto, aninado, multiple
+ ejercicio practico de condicionales
+
+
+
+
+
+
+ --Desarrollar un algoritmo que simule el comportamiento de un cajero electronico--
+
+ 1 - podran consultar saldo
+ 2 - retirar dinero
+ 3 - consignar a su propia cuenta
+ 4 - podrarn transferir a otras cuentas
+ deben iniciar seccion, tendran 3 intentos para acceder
+ las acciones se controlan hasta que el usuario le de cerrar seccion
+ Finalizando le seccion mostrar: Total de retiros, total de transferencias,
+ total de movimientos
